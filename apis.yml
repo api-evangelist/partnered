@@ -1,7 +1,26 @@
 aid: partnered
-name: partnered
-description: partnered is a company surfaced as a portfolio company of slow-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/partnered.png
+name: Partnered
+description: >-
+  Partnered was a cloud-based co-selling and partner-introductions platform that
+  let sales teams request and exchange warm customer introductions with their
+  partners' sales teams, enabling partner-powered co-selling at scale. Founded by
+  Adam Michalski and Tim Sherwood and backed by Slow Ventures among other early
+  investors, Partnered was acquired by Crossbeam on May 18, 2022, and its product
+  was folded into Crossbeam's Ecosystem-Led Growth platform. The partnered.com
+  domain now redirects to crossbeam.com; Partnered no longer operates as an
+  independent company and exposes no independent public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/partnered/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,23 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: crossbeam
+x-acquired-date: '2022-05-18'
+x-founders:
+- Adam Michalski
+- Tim Sherwood
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Partnerships
+- Co-Selling
+- Sales
+- Partner Ecosystem
+- CRM
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,10 @@ maintainers:
 common:
 - type: Website
   url: https://partnered.com
+- type: Acquirer
+  url: https://www.crossbeam.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
