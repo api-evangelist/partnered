@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://partnered.com', status: 302, note: 'declared website redirects to https://www.crossbeam.com/ — a different registrable domain (partnered.com -> crossbeam.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/partnered.png
 name: Partnered
 description: >-
